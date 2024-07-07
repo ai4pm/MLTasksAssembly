@@ -33,7 +33,7 @@ It will run the `MLTasksList.py` script with the specified input arguments.
 
 Create a virtual environment named `multiethnic`. Ensure this environment is set up with the necessary dependencies before submitting the job.
 
-    **Python Version**: Python 3.6+
+    Python Version: Python 3.6+
 
 **Required Python Packages**:
 
