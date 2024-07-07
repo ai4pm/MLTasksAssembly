@@ -18,7 +18,6 @@ The `MLTasksList.py` script requires the following input arguments:
 
 ### Example Commands
 
-    `
     python MLTasksList.py --count_category Gender --omicsConfiguration single --min_cases 5
     
     
@@ -29,7 +28,6 @@ The `MLTasksList.py` script requires the following input arguments:
     
     
     python MLTasksList.py --count_category Gender --omicsConfiguration combination --num_features 2 --min_cases 5
-    `
 
 It will run the `MLTasksList.py` script with the specified input arguments.
 
