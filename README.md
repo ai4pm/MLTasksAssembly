@@ -20,12 +20,9 @@ The `MLTasksList.py` script requires the following input arguments:
 
     python MLTasksList.py --count_category Gender --omicsConfiguration single --min_cases 5
     
-    
     python MLTasksList.py --count_category Race --omicsConfiguration single --min_cases 5 --DDP_group BLACK
     
-    
     python MLTasksList.py --count_category GenderRace --omicsConfiguration single --min_cases 5 --DDP_group BLACK
-    
     
     python MLTasksList.py --count_category Gender --omicsConfiguration combination --num_features 2 --min_cases 5
 
