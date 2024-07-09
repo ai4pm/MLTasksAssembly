@@ -50,7 +50,7 @@ Create a virtual environment named `multiethnic`. Ensure this environment is set
 
 ## Global paths
 
-Before running the scripts, ensure to verify the global paths of the dataset and the current folder in which you are working. The default paths are defined as follows:
+Before running the scripts, ensure to verify the global paths of the dataset and the current folder in which you are working. In the Python code `MLTasksList.py`, the default paths are defined as follows:
 
     folderISAAC = "./"
     DataPath = 'C:/Users/teesh/OneDrive - Indian Institute of Technology Guwahati/Dataset/EssentialData/'
