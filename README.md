@@ -48,6 +48,17 @@ Create a virtual environment named `multiethnic`. Ensure this environment is set
 `openpyxl` (for reading/writing Excel files)
 
 
+## Global paths
+
+Before running the scripts, ensure to verify the global paths of the dataset and the current folder in which you are working. The default paths are defined as follows:
+
+    folderISAAC = "./"
+    DataPath = 'C:/Users/teesh/OneDrive - Indian Institute of Technology Guwahati/Dataset/EssentialData/'
+    if not os.path.exists(DataPath):
+        print("Not working in local system, let's define cluster paths...")
+        DataPath = 'Dataset/EssentialData/'
+
+
 ## Acknowledgement
 
 This work has been supported by NIH R01 grant.
