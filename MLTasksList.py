@@ -32,7 +32,6 @@ DataPath = 'C:/Users/teesh/OneDrive - Indian Institute of Technology Guwahati/Da
 if not os.path.exists(DataPath):
     print("Not working in local system, let's define cluster paths...")
     DataPath = 'Dataset/EssentialData/'
-    folderISAAC = "./MLTasksList/"
 
 MethylationDataPath = os.path.join(DataPath, 'MethylationData/Methylation.mat')
 MethyAncsDataPath = os.path.join(DataPath, 'MethylationData/MethylationGenetic.xlsx')
